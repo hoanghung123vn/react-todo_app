@@ -9,7 +9,6 @@ class SearchControl extends Component {
     }
 
     onChange = (event) => {
-        var {keyword} = this.state;
         var target = event.target;
         var name = target.name;
         var value = target.value;
